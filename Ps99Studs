@@ -1,0 +1,13 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Mori Scripts | :santa: Pet Simulator 99! :santa:", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("Studs")
+local MainSection = Main:NewSection("Auto Studs")
+
+MainSection:NewButton("Auto Studs FAST - Auto Studs SLOW ", "Studs", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatdog69/Auto-Studs/main/Auto"))()
+
+end)
